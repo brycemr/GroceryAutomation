@@ -1,0 +1,174 @@
+body{
+  min-width: 800px;
+  min-height: 600px;
+  padding: 0px;
+  margin: 0px;
+}
+
+li{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h1 {
+  background-color: #0071DC;
+  margin: 0px;
+  color: white;
+  padding: 15px 10px;
+}
+
+h2{
+  display: inline;
+}
+
+h5{
+  margin: 3px;
+}
+
+label{
+  font-size: 12px;
+  margin: 0px 3px;
+  display: inline;
+}
+
+input{
+  margin: 7px 4px 7px 4px;
+  display: inline;
+  width: 100px;
+}
+
+button {
+    outline: none;
+    margin: 10px;
+    border: none;
+    padding: 10px;
+    background-color: #0071DC;
+    border-radius: 20px;
+    color: white;
+  }
+  
+button.current {
+  box-shadow: 0 0 0 2px white,
+              0 0 0 4px black;
+}
+
+button:hover{
+  background-color: #004F9A;
+}
+
+#buttons{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.addButton{
+  background-color: white;
+  color: black;
+  border: none;
+  text-decoration: underline;
+}
+
+.addButton:hover{
+  background-color: white;
+  color: green;
+  border: none;
+  text-decoration: underline;
+}
+
+.deleteButton{
+  background-color: white;
+  color: black;
+  border: none;
+  text-decoration: underline;
+}
+
+.deleteButton:hover{
+  background-color: white;
+  color: red;
+  border: none;
+  text-decoration: underline;
+}
+
+.editButton{
+  background-color: white;
+  color: black;
+  border: none;
+  text-decoration: underline;
+}
+
+.editButton:hover{
+  background-color: white;
+  color: grey;
+  border: none;
+  text-decoration: underline;
+}
+
+.moveIngredient{
+  background-color: white;
+  color: black;
+  border: none;
+  text-decoration: underline;
+}
+
+.moveIngredient:hover{
+  background-color: white;
+  color: grey;
+  border: none;
+  text-decoration: underline;
+}
+
+.viewEditRecipe{
+  background-color: white;
+  color: black;
+  border: none;
+  text-decoration: underline;
+}
+
+.viewEditRecipe:hover{
+  background-color: white;
+  color: grey;
+  border: none;
+  text-decoration: underline;
+}
+
+.addRecipeToQueue{
+  background-color: white;
+  color: black;
+  border: solid black 2px;
+}
+
+.addRecipeToQueue:hover{
+  background-color: black;
+  color: white;
+}
+
+.viewEditRecipe{
+  font-size: 12px;
+}
+
+.addRecipeToQueue{
+  font-size: 12px;
+}
+
+.recipeList{
+  display: inline;
+  font-size: 16px;
+  padding: 0px 10px;
+  margin: 0px 10px;
+}
+
+.header{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+#page{
+  margin: 5px;
+}
+

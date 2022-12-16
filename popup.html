@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+      </head>
+    <body>
+        <h1>Grocery List Automator</h1>
+        <div id="page">
+            <div id="uppterButtons">
+                <button id="collectRecipe">Add this Recipe to Book</button>
+            </div>
+            <div id="main">
+                
+            </div>
+            <div id="buttons">
+                <button id="recipeBook">Open Recipe Book</button>
+                <button id="purchaseIngredients">Add Queued Recipes to Walmart Cart</button>
+                <button id="saveRecipe">Save Recipe</button>
+                <button id="saveIngredient">Save Ingredient</button>
+                <button id="viewQueue">View Recipe Queue</button>
+                <button id="searchIngredient">Auto-Fill URL</button>
+            </div>
+            <hr>
+            <h4>Instructions</h4>
+            <p id="instructions">
+                To add a specific item (brand or size) fill out the url field with the link to that item on <a href="www.walmart.com">Walmart.com</a>.
+                If no url is provided, an item will be auto generated based on the given name and ingredient proportion. The more specific the name, 
+                the more likely we are to add the correct ingredient. 
+            </p>
+        </div>
+        <script src="app.js"></script>
+        <script src="recipeManager.js"></script>
+    </body>
+</html>
